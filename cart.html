@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+    <h2>Professional Wardrobe</h2>
+
+    <ul>
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="men.html">Men</a></li>
+
+        <li><a href="women.html">Women</a></li>
+
+        <li><a href="cart.html">Cart</a></li>
+
+        <li><a href="login.html">Login</a></li>
+
+    </ul>
+
+</nav>
+
+<section class="cart">
+
+    <h1>🛒 Shopping Cart</h1>
+
+    <p>Your selected office essentials.</p>
+
+    <div class="cart-container">
+
+        <div class="cart-item">
+
+            <img src="images/office.png" alt="White Shirt">
+
+            <div class="cart-details">
+
+                <h3>White Formal Shirt</h3>
+
+                <p>₹899</p>
+
+            </div>
+
+            <div class="quantity">
+
+                <button>-</button>
+
+                <span>1</span>
+
+                <button>+</button>
+
+            </div>
+
+            <button class="remove-btn">
+
+                Remove
+
+            </button>
+
+        </div>
+        <div class="cart-item">
+
+            <img src="images/office.png" alt="Trouser">
+
+            <div class="cart-details">
+
+                <h3>Black Formal Trouser</h3>
+
+                <p>₹1499</p>
+
+            </div>
+
+            <div class="quantity">
+
+                <button>-</button>
+
+                <span>1</span>
+
+                <button>+</button>
+
+            </div>
+
+            <button class="remove-btn">
+
+                Remove
+
+            </button>
+
+        </div>
+
+        <div class="cart-item">
+
+            <img src="images/office.png" alt="Shoes">
+
+            <div class="cart-details">
+
+                <h3>Leather Oxford Shoes</h3>
+
+                <p>₹2499</p>
+
+            </div>
+
+            <div class="quantity">
+
+                <button>-</button>
+
+                <span>1</span>
+
+                <button>+</button>
+
+            </div>
+
+            <button class="remove-btn">
+
+                Remove
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- CART SUMMARY -->
+
+    <div class="cart-summary">
+
+        <h2>Order Summary</h2>
+
+        <p>Items : 3</p>
+
+        <p>Total : <strong>₹4897</strong></p>
+
+        <button class="checkout-btn">
+
+            Proceed to Checkout
+
+        </button>
+
+    </div>
+
+</section>
+
+<script src="cart.js"></script>
+
+</body>
+
+</html>
